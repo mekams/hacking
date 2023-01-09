@@ -1,0 +1,23 @@
+let a = [
+    "Initializing Hack tool...",
+    "Connecting to Facebook...",
+    "Connecting to server 4...",
+    "Connection failed. Retrying...",
+    "Connecting to server 3",
+    "Firewall conflict",
+    "Retrying...Trying server 2",
+    "Access granted",
+    "Connected Successfully...",
+    "Hacking your device...",
+    "Trying Brute Force...",
+    "100K passwords tried...",
+    "Match not found",
+    "Another 300K passwords tried...",
+    "Match not found...",
+    "Another 100K passwords tried...",
+    "Match not found...",
+    "Another 50K passwords tried...",
+    "Match found...",
+    "Accessing Account...",
+    "Hack Successful..."
+]
