@@ -1,7 +1,37 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+
 body{
     background-image: url("https://m.media-amazon.com/images/I/81iVhz6Rt6L._SL1000_.jpg");
     background-repeat: no-repeat;
     /* background-size: 100%; */
     background-position: center;
-    background-color:black
+    background-color:rgb(0, 0, 0)
+}
+.container{
+    display:flex;
+    /* justify-content:space-around; */
+    align-items: center;
+    /* width:18vw; */
+    height:100%;
+    border-color: #18d76b;
+    border-style: dotted;
+    margin:0px 240px;
+}
+
+.headingLeft{
+    font-size:4vh;
+    color:#ed2113;
+    text-shadow: 2px 2px 4px rgb(211, 219, 141);
+    text-align:start;
+}
+.headingCenter{
+    font-size:5vh;
+    color:#f56f15;
+    text-shadow: 2px 2px 4px rgb(243, 10, 10);
+    text-align:center;
+    margin:0px;
 }
