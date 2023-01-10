@@ -23,6 +23,8 @@ let a = [
     "Hack Successful..."
 ]
 
+let b=["It's a Prank Just chill"]
+
 let delay = async(seconds)=>{
     return new Promise((resolve, reject)=>{
         setTimeout(() => {
@@ -32,7 +34,7 @@ let delay = async(seconds)=>{
 }
 
 let hack = async(messages)=>{
-    await delay(2.2)                               //synchronous task by await
+    await delay(0.3)                               //synchronous task by await
     let text = document.getElementById("process")       //gettting element by id 
     text.innerHTML=text.innerHTML+messages+ `<br /><br />`       // inserting  text inside tag
 }
@@ -40,5 +42,14 @@ let hack = async(messages)=>{
 (async()=>{
     for(let i=0;i<a.length;i++){
         await hack(a[i])                    //IIFE and function call 
+    }
+    await delay(5)
+    let save =prompt(`Type "sorry" to save yourself`)
+    if(save ==="sorry"||save==="Sorry"){
+        let p = document.getElementById("prank")       //gettting element by id 
+        p.innerHTML=p.innerHTML+b
+    }
+    else{
+        alert("You are now hacked completely")
     }
 })()

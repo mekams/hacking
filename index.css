@@ -23,7 +23,7 @@ body{
     padding-top: 3px;
 }
 
-#process{
+#process,#prank{
     color: rgb(45, 150, 91);
     text-shadow:1px 1px 2px rgb(227, 89, 43) ;
     margin: 0px 0px 83px 2px;
@@ -31,10 +31,10 @@ body{
 }
 
 .headingCenter,.headingLeft{
-    color: rgb(255, 255, 0);
+    color: rgb(255, 47, 0);
     margin: 20px;
-    font-size: 25px;
-    text-shadow:1px 2px 5px rgb(251, 43, 7)
+    font-size: 28px;
+    text-shadow:1px 1px 2px rgb(107, 250, 5)
 }
 
 
@@ -45,16 +45,15 @@ body{
     }
     
     #process{
-        color: rgb(251, 255, 0);
-        text-shadow:1px 1px 5px rgb(247, 10, 10)
+        color: rgb(246, 246, 7);
+        text-shadow:1px 1px 2px rgb(249, 0, 0)
     }
 
     .container{
-        position:absolute;
-        width:80vw;
-        background:rgba(0, 0, 0, 0.438); 
-        height:70vh;
+        width:80vw; 
+        height:90vh;
         padding:2vh;
         overflow-y: scroll;
+        overflow-x:hidden
     }
  }
