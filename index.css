@@ -23,11 +23,17 @@ body{
     padding-top: 3px;
 }
 
-#process,#prank{
+#process{
     color: rgb(45, 150, 91);
     text-shadow:1px 1px 2px rgb(227, 89, 43) ;
     margin: 0px 0px 83px 2px;
     padding: 5px 25px;
+}
+#prank{
+    color: rgb(255, 24, 3);
+    text-shadow:1px 1px 2px rgb(255, 5, 5) ;
+    text-align: center;
+    font-size: 30px;
 }
 
 .headingCenter,.headingLeft{

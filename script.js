@@ -34,7 +34,7 @@ let delay = async(seconds)=>{
 }
 
 let hack = async(messages)=>{
-    await delay(0.3)                               //synchronous task by await
+    await delay(1.6)                               //synchronous task by await
     let text = document.getElementById("process")       //gettting element by id 
     text.innerHTML=text.innerHTML+messages+ `<br /><br />`       // inserting  text inside tag
 }
@@ -43,13 +43,14 @@ let hack = async(messages)=>{
     for(let i=0;i<a.length;i++){
         await hack(a[i])                    //IIFE and function call 
     }
-    await delay(5)
+    await delay(4.5)
     let save =prompt(`Type "sorry" to save yourself`)
-    if(save ==="sorry"||save==="Sorry"){
+    if(save ==="sorry"||save==="Sorry"|| save==="SORRY"){
         let p = document.getElementById("prank")       //gettting element by id 
-        p.innerHTML=p.innerHTML+b
+        p.innerHTML=p.innerHTML+ "You are pranked"
+        alert(b)                                    //final alert
     }
     else{
-        alert("You are now hacked completely")
+        alert("You did not listen & I hacked you completely") //final alert
     }
 })()
