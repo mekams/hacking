@@ -7,55 +7,54 @@
 body{
     background-image: url("https://m.media-amazon.com/images/I/81iVhz6Rt6L._SL1000_.jpg");
     background-repeat: no-repeat;
-    background-size: 70%;
+    background-size: 66vw 145vh;
     background-position: right;
     background-color:rgb(0, 0, 0);
-    margin-left: 40px;
 }
 
 .container{
-    position:relative;
     width:25vw;
     background:rgba(0,0,0,0.8);
-    border:1px solid grey; 
-    border-radius: 8px;
+    border:1px solid rgb(212, 187, 28); 
+    border-radius: 28px;
     height:54vw;
     margin-top: 32px;
+    margin-left: 20px;
     padding-top: 3px;
 }
 
 #process{
     color: rgb(45, 150, 91);
-    text-shadow:1px 1px 2px rgb(165, 249, 19) ;
+    text-shadow:1px 1px 2px rgb(227, 89, 43) ;
     margin: 0px 0px 83px 2px;
     padding: 5px 25px;
 }
 
-.headindCenter ,.headingLeft{
-    color: rgb(240, 20, 12);
-    margin-top: 12px;
+.headingCenter,.headingLeft{
+    color: rgb(255, 255, 0);
+    margin: 20px;
+    font-size: 25px;
+    text-shadow:1px 2px 5px rgb(251, 43, 7)
 }
+
 
 @media  (width < 1320px) {
     body{
-        /* display: block; */
-        background-size:45vh 134vw;
+        background-size:45vh 100vh;
         background-position: bottom ;
     }
     
-    /* #process{
-       color: rgb(26, 175, 170);
-       text-shadow:1px 1px 2px rgb(10, 192, 247)
-    } */
+    #process{
+        color: rgb(251, 255, 0);
+        text-shadow:1px 1px 5px rgb(247, 10, 10)
+    }
 
     .container{
-        position:relative;
+        position:absolute;
         width:80vw;
-        background:rgba(0, 0, 0, 0.438);
-        border:1px solid grey; 
-        border-radius: 8px;
-        height:120vh;
+        background:rgba(0, 0, 0, 0.438); 
+        height:70vh;
         padding:2vh;
-        overflow: hidden;
+        overflow-y: scroll;
     }
  }
