@@ -33,7 +33,7 @@ body{
     color: rgb(255, 24, 3);
     text-shadow:1px 1px 2px rgb(255, 5, 5) ;
     text-align: center;
-    font-size: 40vh;
+    font-size: 18vh;
 }
 
 .headingCenter,.headingLeft{
@@ -43,6 +43,15 @@ body{
     text-shadow:1px 1px 2px rgb(107, 250, 5)
 }
 
+footer{
+    /* background-color: black; */
+    /* background: linear-gradient(black,red,yellow); */
+    background: radial-gradient(rgba(0, 0, 0, 0.448),rgba(128, 128, 128, 0.559));
+    color: rgba(36, 227, 125, 0.305);
+    height:3%;
+    text-align: center;
+    margin:20px 0px 0px;
+}
 
 @media  (width < 1320px) {
     body{
