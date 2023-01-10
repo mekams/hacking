@@ -34,7 +34,7 @@ let delay = async(seconds)=>{
 let hack = async(messages)=>{
     await delay(2.2)                               //synchronous task by await
     let text = document.getElementById("process")       //gettting element by id 
-    text.innerHTML=text.innerHTML+messages+"<br>"       // inserting  text inside tag
+    text.innerHTML=text.innerHTML+messages+ `<br /><br />`       // inserting  text inside tag
 }
 
 (async()=>{

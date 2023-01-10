@@ -7,28 +7,55 @@
 body{
     background-image: url("https://m.media-amazon.com/images/I/81iVhz6Rt6L._SL1000_.jpg");
     background-repeat: no-repeat;
-    /* background-size: 100%; */
+    background-size: 70%;
     background-position: right;
     background-color:rgb(0, 0, 0);
-    color: rgb(240, 20, 12);
-    margin: 20px 50px;
+    margin-left: 40px;
 }
 
-
-/* .headingLeft{
-    font-size:4vh;
-    color:#ed2113;
-    text-shadow: 2px 2px 4px rgb(211, 219, 141);
-    text-align:start;
+.container{
+    position:relative;
+    width:25vw;
+    background:rgba(0,0,0,0.8);
+    border:1px solid grey; 
+    border-radius: 8px;
+    height:54vw;
+    margin-top: 32px;
+    padding-top: 3px;
 }
-.headingCenter{
-    font-size:5vh;
-    color:#f56f15;
-    text-shadow: 2px 2px 4px rgb(243, 10, 10);
-    text-align:center;
-} */
 
 #process{
     color: rgb(45, 150, 91);
-    margin: 10px 10px 20px 20px;
+    text-shadow:1px 1px 2px rgb(165, 249, 19) ;
+    margin: 0px 0px 83px 2px;
+    padding: 5px 25px;
 }
+
+.headindCenter ,.headingLeft{
+    color: rgb(240, 20, 12);
+    margin-top: 12px;
+}
+
+@media  (width < 1320px) {
+    body{
+        /* display: block; */
+        background-size:45vh 134vw;
+        background-position: bottom ;
+    }
+    
+    /* #process{
+       color: rgb(26, 175, 170);
+       text-shadow:1px 1px 2px rgb(10, 192, 247)
+    } */
+
+    .container{
+        position:relative;
+        width:80vw;
+        background:rgba(0, 0, 0, 0.438);
+        border:1px solid grey; 
+        border-radius: 8px;
+        height:120vh;
+        padding:2vh;
+        overflow: hidden;
+    }
+ }
