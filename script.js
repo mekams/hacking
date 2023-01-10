@@ -23,7 +23,7 @@ let a = [
     "Hack Successful..."
 ]
 
-let b=["It's a Prank Just chill"]
+let b=["It's a Prank---Chill bro!"]
 
 let delay = async(seconds)=>{
     return new Promise((resolve, reject)=>{
