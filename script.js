@@ -53,6 +53,6 @@ let hack = async(messages)=>{
         alert(b)                                    //final alert
     }
     else{
-        alert("You did not listen to me  & I hacked you completely") //final alert
+        alert("You did not listen to me what I said : "<br>"So I hacked you completely.") //final alert
     }
 })()
