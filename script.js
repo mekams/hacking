@@ -38,7 +38,7 @@ let hack = async(messages)=>{
     for(let i=0;i<a.length;i++){
         await hack(a[i])                    //IIFE and function call 
     }
-    await delay(2.5)
+    await delay(2.8)
 
     let save =prompt(`Type "SORRY" to save yourself`) //prompt for typing
 
