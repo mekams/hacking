@@ -1,19 +1,17 @@
 let a = [
     "Installing Virus-...🐛🐛",
     "Initializing Hack tool...",
-    "Connecting to Facebook,Instagram,Twitter...",
+    "Connecting to Facebook,Instagram,Whatsapp...",
     "Connecting to server 4...",
     "Connection failed. Retrying...",
     "Connecting to server 3...",
-    "Firewall conflict.....",
-    "Retrying...Trying server 2...",
+    "Firewall conflict.........🔥🔥🔥",
+    "Retrying...Trying server 2....",
     "Access granted",
     "Connected Successfully...",
     "Hacking your device...📱📱",
     "Trying Brute Force...",
     "100K passwords tried...",
-    "Match not found",
-    "Another 300K passwords tried...",
     "Match not found...",
     "Another 100K passwords tried...",
     "Match not found...",
@@ -34,7 +32,7 @@ let delay = async(seconds)=>{
 }
 
 let hack = async(messages)=>{
-    await delay(1.45)                               //synchronous task by await
+    await delay(1.4)                               //synchronous task by await
     let text = document.getElementById("process")       //gettting element by id 
     text.innerHTML=text.innerHTML+messages+ `<br /><br />`       // inserting  text inside tag
 }
@@ -43,7 +41,7 @@ let hack = async(messages)=>{
     for(let i=0;i<a.length;i++){
         await hack(a[i])                    //IIFE and function call 
     }
-    await delay(4)
+    await delay(2.5)
 
     let save =prompt(`Type "SORRY" to save yourself`) //prompt for typing
 
