@@ -53,6 +53,10 @@ footer{
     margin:20px 0px 0px;
 }
 
+p:hover{
+    color: rgb(255, 255, 255);
+}
+
 @media  (width < 1320px) {
     body{
         background-size:45vh 100vh;
@@ -70,5 +74,10 @@ footer{
         padding:2vh;
         overflow-y: scroll;
         overflow-x:hidden
+    }
+
+    #prank{
+        font-size: 10vh;
+        text-shadow: 1px 1px 0px(rgb(255, 146, 4)) ;
     }
  }
