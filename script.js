@@ -1,15 +1,15 @@
 let a = [
-    "Installing Virus...",
+    "Installing Virus-...🐛🐛",
     "Initializing Hack tool...",
     "Connecting to Facebook,Instagram,Twitter...",
     "Connecting to server 4...",
     "Connection failed. Retrying...",
     "Connecting to server 3...",
-    "Firewall conflict...",
+    "Firewall conflict.....",
     "Retrying...Trying server 2...",
     "Access granted",
     "Connected Successfully...",
-    "Hacking your device...",
+    "Hacking your device...📱📱",
     "Trying Brute Force...",
     "100K passwords tried...",
     "Match not found",
@@ -20,10 +20,10 @@ let a = [
     "Another 50K passwords tried...",
     "Match found...",
     "Accessing Account...",
-    "Hack Successful..."
+    "Hack Successful...💀💀💀💀"
 ]
 
-let b=["It's a Prank---Chill bro!"]
+let b=["It's a Prank---Chill bro!🤣😂"]
 
 let delay = async(seconds)=>{
     return new Promise((resolve, reject)=>{
@@ -34,7 +34,7 @@ let delay = async(seconds)=>{
 }
 
 let hack = async(messages)=>{
-    await delay(1.5)                               //synchronous task by await
+    await delay(1.45)                               //synchronous task by await
     let text = document.getElementById("process")       //gettting element by id 
     text.innerHTML=text.innerHTML+messages+ `<br /><br />`       // inserting  text inside tag
 }
@@ -53,6 +53,6 @@ let hack = async(messages)=>{
         alert(b)                                    //final alert
     }
     else{
-        alert("You did not listen to me what I said : "<br>"So I hacked you completely.") //final alert
+        alert(`You did not listen to me what I said :\nSo I hacked you completely.\nNow you are responsible to everything comming next to you. `) //final alert
     }
 })()
