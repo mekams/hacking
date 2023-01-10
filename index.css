@@ -21,6 +21,7 @@ body{
     margin-top: 32px;
     margin-left: 20px;
     padding-top: 3px;
+    transition:all 11.5s ease;
 }
 
 #process{
@@ -28,6 +29,7 @@ body{
     text-shadow:1px 1px 2px rgb(227, 89, 43) ;
     margin: 0px 0px 83px 2px;
     padding: 5px 25px;
+    transition:all 0.5s ease;
 }
 #prank{
     color: rgb(255, 24, 3);

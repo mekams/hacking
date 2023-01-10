@@ -11,11 +11,8 @@ let a = [
     "Connected Successfully...",
     "Hacking your device...📱📱",
     "Trying Brute Force...",
-    "100K passwords tried...",
     "Match not found...",
     "Another 100K passwords tried...",
-    "Match not found...",
-    "Another 50K passwords tried...",
     "Match found...",
     "Accessing Account...",
     "Hack Successful...💀💀💀💀"
